@@ -1,0 +1,5 @@
+com\book\trade\service\TradeServiceImpl.class
+com\book\trade\mapper\TradeMapper.class
+com\book\trade\TradeApplication.class
+com\book\trade\controller\TradeController.class
+com\book\trade\service\ProviderOrderService.class
