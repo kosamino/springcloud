@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FlexCompilerConfiguration">
+    <option name="GENERATE_FLEXMOJOS_CONFIGS" value="false" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-feign-serviceapi/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-eureka-server-single/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-feign-appclient/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-feign-appclient-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-feign-appservice-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-feign-serviceapi-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-hystrix-appclient-robbin/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-hystrix-appclient-feign/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="10" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/../spring-cloud-eureka-server-single" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-feign-appclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-feign-appclient-httpclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-feign-appservice-httpclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-feign-serviceapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-feign-serviceapi-httpclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-hystrix-appclient-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-hystrix-appclient-robbin" charset="UTF-8" />
+  </component>
+</project>

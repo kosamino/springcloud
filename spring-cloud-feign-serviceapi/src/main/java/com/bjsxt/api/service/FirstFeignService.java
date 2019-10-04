@@ -1,13 +1,12 @@
 package com.bjsxt.api.service;
 
-import java.util.List;
-
+import com.bjsxt.api.pojo.FeignTestPOJO;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.bjsxt.api.pojo.FeignTestPOJO;
+import java.util.List;
 
 /**
  * 微服务标准。

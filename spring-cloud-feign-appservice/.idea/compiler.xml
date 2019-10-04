@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-eureka-server-single" />
+        <module name="spring-cloud-feign-appclient" />
+        <module name="spring-cloud-feign-appclient-httpclient" />
+        <module name="spring-cloud-feign-appservice" />
+        <module name="spring-cloud-feign-appservice-httpclient" />
+        <module name="spring-cloud-feign-serviceapi" />
+        <module name="spring-cloud-feign-serviceapi-httpclient" />
+        <module name="spring-cloud-hystrix-appclient-feign" />
+        <module name="spring-cloud-hystrix-appclient-robbin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-eureka-server-single" target="1.8" />
+      <module name="spring-cloud-feign-appclient" target="1.8" />
+      <module name="spring-cloud-feign-appclient-httpclient" target="1.8" />
+      <module name="spring-cloud-feign-appservice" target="1.8" />
+      <module name="spring-cloud-feign-appservice-httpclient" target="1.8" />
+      <module name="spring-cloud-feign-serviceapi" target="1.8" />
+      <module name="spring-cloud-feign-serviceapi-httpclient" target="1.8" />
+      <module name="spring-cloud-hystrix-appclient-feign" target="1.8" />
+      <module name="spring-cloud-hystrix-appclient-robbin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

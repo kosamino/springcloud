@@ -1,15 +1,13 @@
 package com.bjsxt.eureka.service;
 
-import java.util.List;
-
+import com.bjsxt.api.pojo.FeignTestPOJO;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.bjsxt.api.pojo.FeignTestPOJO;
-import com.bjsxt.eureka.service.impl.FirstClientFeignServiceImpl;
+import java.util.List;
 
 /**
  * 如果在Feign中使用Hystrix，则不能直接继承服务标准接口。
@@ -21,7 +19,7 @@ import com.bjsxt.eureka.service.impl.FirstClientFeignServiceImpl;
  * 在默认的Hystrix配置环境中，使用的是服务降级保护机制。
  * 
  * 服务降级，默认的情况下，包含了请求超时。
- * feign声明式远程服务调用，在启动的时候，初始化过程比较慢。比ribbon要慢很多。
+ * feign声明式远程服务调用，在启动的时候，初始化过程比较慢（通过注释@FeignClient描述接口，接口生成动态代理对象，实现服务调用）。比ribbon要慢很多。
  * 很容易在第一次访问的时候，产生超时。导致返回fallback数据。
  */
 @FeignClient(name="test-feign-application-service",
