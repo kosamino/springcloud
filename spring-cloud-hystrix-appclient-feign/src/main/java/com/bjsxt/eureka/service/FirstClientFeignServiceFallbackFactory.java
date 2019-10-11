@@ -1,15 +1,13 @@
 package com.bjsxt.eureka.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.bjsxt.api.pojo.FeignTestPOJO;
+import feign.hystrix.FallbackFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.bjsxt.api.pojo.FeignTestPOJO;
-
-import feign.hystrix.FallbackFactory;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 使用Factory方式实现Feign的Hystrix容错处理。

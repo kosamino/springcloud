@@ -57,15 +57,15 @@
 			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
 		
-		<!-- Turbine需要的依赖信息。 -->
-		<dependency>
-	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-starter-turbine</artifactId>
-	    </dependency>
-	    <dependency>
-	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-netflix-turbine</artifactId>
-	    </dependency>
+<!-- Turbine需要的依赖信息。 -->
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-turbine</artifactId>
+</dependency>
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-netflix-turbine</artifactId>
+</dependency>
 		
 	</dependencies>
 	<build>

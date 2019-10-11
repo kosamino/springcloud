@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/../spring-cloud-feign-serviceapi-httpclient/spring-cloud-feign-serviceapi-httpclient.iml" filepath="$PROJECT_DIR$/../spring-cloud-feign-serviceapi-httpclient/spring-cloud-feign-serviceapi-httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-appclient-feign/spring-cloud-hystrix-appclient-feign.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-appclient-feign/spring-cloud-hystrix-appclient-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-appclient-robbin/spring-cloud-hystrix-appclient-robbin.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-appclient-robbin/spring-cloud-hystrix-appclient-robbin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-dashboard-viewer/spring-cloud-hystrix-dashboard-viewer.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-dashboard-viewer/spring-cloud-hystrix-dashboard-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-turbine/spring-cloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-turbine/spring-cloud-hystrix-turbine.iml" />
     </modules>
   </component>
 </project>

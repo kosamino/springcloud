@@ -23,8 +23,8 @@ import java.util.List;
  * 很容易在第一次访问的时候，产生超时。导致返回fallback数据。
  */
 @FeignClient(name="test-feign-application-service",
-			// fallback=FirstClientFeignServiceImpl.class
-			fallbackFactory=FirstClientFeignServiceFallbackFactory.class
+//		fallback=FirstClientFeignServiceImpl.class
+		fallbackFactory=FirstClientFeignServiceFallbackFactory.class
 		)
 public interface FirstClientFeignService{
 
