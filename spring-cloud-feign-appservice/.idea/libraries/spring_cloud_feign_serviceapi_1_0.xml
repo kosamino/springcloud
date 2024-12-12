@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-cloud-feign-serviceapi-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../spring-cloud-feign-serviceapi/target/spring-cloud-feign-serviceapi-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

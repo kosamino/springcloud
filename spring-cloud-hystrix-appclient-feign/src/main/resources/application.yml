@@ -10,6 +10,9 @@ feign:
 
 hystrix:
   command:
+    # default代表全部服务配置，如果为某个具体服务定制配置，使用：'服务接口名#方法名(参数类型列表)'的方式来定义。
+    # 如：'FirstClientFeignService#test(int)'。如果接口名称在应用中唯一，可以只写simpleName。
+    # 如果接口名称在应用中不唯一，需要写fullName（包名.类名）
     "FirstClientFeignService#testFeign()":
       fallback:
         enabled: true

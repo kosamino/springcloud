@@ -1,12 +1,11 @@
 package com.bjsxt.eureka.service.impl;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.stereotype.Component;
-
 import com.bjsxt.api.pojo.FeignTestPOJO;
 import com.bjsxt.eureka.service.FirstClientFeignService;
+import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 实现类中的每个方法，都是对应的接口方法的fallback。

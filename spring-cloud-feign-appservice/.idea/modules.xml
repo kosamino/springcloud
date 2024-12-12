@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-eureka-server-single/spring-cloud-eureka-server-single.iml" filepath="$PROJECT_DIR$/../spring-cloud-eureka-server-single/spring-cloud-eureka-server-single.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-feign-appclient/spring-cloud-feign-appclient.iml" filepath="$PROJECT_DIR$/../spring-cloud-feign-appclient/spring-cloud-feign-appclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-feign-appclient-httpclient/spring-cloud-feign-appclient-httpclient.iml" filepath="$PROJECT_DIR$/../spring-cloud-feign-appclient-httpclient/spring-cloud-feign-appclient-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-appservice.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-appservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-feign-appservice-httpclient/spring-cloud-feign-appservice-httpclient.iml" filepath="$PROJECT_DIR$/../spring-cloud-feign-appservice-httpclient/spring-cloud-feign-appservice-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-feign-serviceapi/spring-cloud-feign-serviceapi.iml" filepath="$PROJECT_DIR$/../spring-cloud-feign-serviceapi/spring-cloud-feign-serviceapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-feign-serviceapi-httpclient/spring-cloud-feign-serviceapi-httpclient.iml" filepath="$PROJECT_DIR$/../spring-cloud-feign-serviceapi-httpclient/spring-cloud-feign-serviceapi-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-appclient-feign/spring-cloud-hystrix-appclient-feign.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-appclient-feign/spring-cloud-hystrix-appclient-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-appclient-robbin/spring-cloud-hystrix-appclient-robbin.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-appclient-robbin/spring-cloud-hystrix-appclient-robbin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-dashboard-viewer/spring-cloud-hystrix-dashboard-viewer.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-dashboard-viewer/spring-cloud-hystrix-dashboard-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-hystrix-turbine/spring-cloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/../spring-cloud-hystrix-turbine/spring-cloud-hystrix-turbine.iml" />
+    </modules>
+  </component>
+</project>

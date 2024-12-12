@@ -27,5 +27,5 @@ public class HystrixApplicationClientApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HystrixApplicationClientApplication.class, args);
 	}
-	
+
 }
